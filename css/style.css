@@ -85,6 +85,9 @@ body{
     background-color: #F3F9FB;
     border-radius: 500px;
     width: 500px;
+    animation-name: immov;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
 }
 
 .sc3h{
@@ -97,4 +100,33 @@ body{
     color: white;
     border-radius: 60px;
     padding: 8px;
+}
+
+
+@keyframes mo {
+    to {
+        transform: translateX(30px);
+    }
+}
+
+.move:hover .sc3icon{
+    animation-name: mo;
+    animation-duration: 1s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes immov {
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(18px);
+    }
+    75%{
+        transform: translateY(-18px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
 }
