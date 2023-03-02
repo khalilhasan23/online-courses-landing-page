@@ -184,3 +184,19 @@ body{
     margin-top: -10px;
     box-shadow: 0px 3px 30px 3px rgb(7 7 7 / 7%);
 }
+
+.inpu{
+    background-color: #F3F9FB;
+    border: none;
+    margin-top: 32px;
+    height: 56px;
+    width: 256px;
+    padding: 20px;
+}
+
+.textarea{
+    background-color: #F3F9FB;
+    border: none;
+    padding: 20px;
+    margin-top: 15px;
+}
