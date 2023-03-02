@@ -178,6 +178,7 @@ body{
     border-bottom: #6C63FF solid;
     padding: 12px;
     margin: 16px;
+    transition: all .7s;
 }
 
 .card-h:hover {
