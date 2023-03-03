@@ -1,6 +1,6 @@
 # Online Courses Landing Page
 
-## [site demo](https://khalilhasan23.github.io/mystro-landing-page/)
+## [site demo](https://khalilhasan23.github.io/online-courses-landing-page/)
 
 
 ## project screenshot
